@@ -1,0 +1,77 @@
+html, body {
+    margin: 10;
+    padding: 10;
+    background-color: #cfd1d1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h1 {
+    text-align: center;
+    color: #034c52;
+}
+
+h2 {
+    color: #034c52;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    padding: 0.5em;
+    cursor: pointer;
+    background-color: #017075;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+button:focus,
+button:hover {
+    background-color: #8b3e2c;
+}
+
+.container {
+    min-width: 600px;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 2em;
+    background-image: url(./images/snake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: #aeb2b5;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+}
+
+.snake{
+    background-color: #0f4156;
+    border-radius: 50%;
+}
+
+.apple{
+    background-image: url(./images/apple.svg)
+}
+
+.end {
+    color: #8b3e2c;
+}
+
+.bomb {
+    background-image: url(./images/bomb.svg)
+}
